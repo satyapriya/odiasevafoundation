@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/odiasevafoundation/static/css/main.a1a88893.css",
+    "main.js": "/odiasevafoundation/static/js/main.660ff722.js",
+    "static/js/453.3604ae2e.chunk.js": "/odiasevafoundation/static/js/453.3604ae2e.chunk.js",
+    "static/media/gallery-1.jpg": "/odiasevafoundation/static/media/gallery-1.8fcf7084fd1d5f40fe72.jpg",
+    "static/media/gallery-2.jpg": "/odiasevafoundation/static/media/gallery-2.62c4f52b915a75398f4d.jpg",
+    "static/media/cow-radha.jpg": "/odiasevafoundation/static/media/cow-radha.338f78e07fa0a3eaf476.jpg",
+    "static/media/gallery-3.jpg": "/odiasevafoundation/static/media/gallery-3.eaa7bd7cb0a40357e5bd.jpg",
+    "static/media/cow-shyam.jpg": "/odiasevafoundation/static/media/cow-shyam.eb1663e151e070811183.jpg",
+    "static/media/cow-gauri.jpg": "/odiasevafoundation/static/media/cow-gauri.317bf0327720730c6517.jpg",
+    "static/media/logo.png": "/odiasevafoundation/static/media/logo.b76f381133c458a478b2.png",
+    "static/media/cow-krishna.jpg": "/odiasevafoundation/static/media/cow-krishna.8d3cb92279a7ae579505.jpg",
+    "static/media/cow-nandi.jpg": "/odiasevafoundation/static/media/cow-nandi.73b291e627f429ac8dbc.jpg",
+    "static/media/cow-lakshmi.jpg": "/odiasevafoundation/static/media/cow-lakshmi.17ea9678d5c59af9eaf1.jpg",
+    "index.html": "/odiasevafoundation/index.html",
+    "main.a1a88893.css.map": "/odiasevafoundation/static/css/main.a1a88893.css.map",
+    "main.660ff722.js.map": "/odiasevafoundation/static/js/main.660ff722.js.map",
+    "453.3604ae2e.chunk.js.map": "/odiasevafoundation/static/js/453.3604ae2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1a88893.css",
+    "static/js/main.660ff722.js"
+  ]
+}
