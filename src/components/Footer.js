@@ -44,15 +44,21 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Odisha, India</li>
+              <li>Office Address - Room No. 01, Jai Jagannath CHSL, Nandadeep Nagar, Chakkinaka, Kalyan (E.) - 421306.</li>
+              <li>Gousala Address - Gothanipada Village, Kakadwal, Shrimalang Road, Nevali, Kalyan (E.)</li>
               <li>
-                <a href="mailto:contact@odiaseva.org" className="hover:text-primary transition-colors">
-                  contact@odiaseva.org
+                <a href="mailto:odiasevafoundation@gmail.com" className="hover:text-primary transition-colors">
+                  odiasevafoundation@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+91XXXXXXXXXX" className="hover:text-primary transition-colors">
-                  +91 XXXX XXXXXX
+                <a href="mailto:info@odiasevafoundation.com" className="hover:text-primary transition-colors">
+                  info@odiasevafoundation.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+918928887070" className="hover:text-primary transition-colors">
+                  +918928887070
                 </a>
               </li>
             </ul>

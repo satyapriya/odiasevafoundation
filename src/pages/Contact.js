@@ -36,8 +36,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Phone & WhatsApp</h3>
-                    <a href="tel:+91XXXXXXXXXX" className="text-muted-foreground hover:text-primary transition-colors">
-                      +91 XXXX XXXXXX
+                    <a href="tel:+918928887070" className="text-muted-foreground hover:text-primary transition-colors">
+                      +918928887070
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">Available 9 AM - 6 PM</p>
                   </div>
@@ -49,8 +49,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:contact@odiaseva.org" className="text-muted-foreground hover:text-primary transition-colors">
-                      contact@odiaseva.org
+                    <a href="mailto:odiasevafoundation@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      odiasevafoundation@gmail.com
+                    </a>
+                    <a href="mailto:info@odiasevafoundation.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      info@odiasevafoundation.com
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">We respond within 24 hours</p>
                   </div>
@@ -64,8 +67,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground mb-1">Address</h3>
                     <p className="text-muted-foreground">
                       Odia Seva Foundation<br />
-                      Village Road, District Name<br />
-                      Odisha, India - 751XXX
+                      Gothanipada Village, Kakadwal, <br></br>Shrimalang Road, Nevali, Kalyan (E.)
                     </p>
                   </div>
                 </div>
@@ -86,7 +88,7 @@ const Contact = () => {
 
                 <div className="pt-4">
                   <Button className="w-full" asChild>
-                    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/918928887070" target="_blank" rel="noopener noreferrer">
                       Message on WhatsApp
                     </a>
                   </Button>
@@ -104,7 +106,7 @@ const Contact = () => {
               <CardContent>
                 <div className="aspect-square rounded-lg overflow-hidden bg-muted">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.7353533833934!2d85.82458931490292!3d20.296058486393597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                    src= "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d895.5764351956512!2d73.14807196956356!3d19.161020598878835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA5JzM5LjciTiA3M8KwMDgnNTUuNCJF!5e1!3m2!1sen!2sin!4v1759590083692!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -115,7 +117,7 @@ const Contact = () => {
                   />
                 </div>
                 <p className="text-sm text-muted-foreground mt-4 text-center">
-                  Located in the peaceful countryside of Odisha
+                  Located in the peaceful countryside of Maharastra
                 </p>
               </CardContent>
             </Card>
@@ -132,7 +134,7 @@ const Contact = () => {
                 every helping hand makes a difference.
               </p>
               <Button variant="default" asChild>
-                <a href="mailto:contact@odiaseva.org?subject=Volunteering Inquiry">
+                <a href="mailto:odiasevafoundation@gmail.com?subject=Volunteering Inquiry">
                   Become a Volunteer
                 </a>
               </Button>

@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import DonationTierCard from "../components/DonationTierCard";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
 import { Button } from "../components/ui/button";
+import qrcode from "../assets/images/qrcode.jpg";
 
 const Donate = () => {
   const donationTiers = [
@@ -86,26 +87,45 @@ const Donate = () => {
               <div className="p-6 bg-muted rounded-lg space-y-3">
                 <div className="grid grid-cols-2 gap-2">
                   <span className="text-muted-foreground">Account Name:</span>
-                  <span className="font-medium text-foreground">Odia Seva Foundation</span>
+                  <span className="font-medium text-foreground">ODIA SEVA FOUNDATION</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
                   <span className="text-muted-foreground">Account Number:</span>
-                  <span className="font-medium text-foreground">XXXX XXXX XXXX</span>
+                  <span className="font-medium text-foreground">923020020764908</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
                   <span className="text-muted-foreground">IFSC Code:</span>
-                  <span className="font-medium text-foreground">XXXXXXX</span>
+                  <span className="font-medium text-foreground">UTIB0004801</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
                   <span className="text-muted-foreground">Bank Name:</span>
-                  <span className="font-medium text-foreground">XXXX Bank</span>
+                  <span className="font-medium text-foreground">AXIS BANK</span>
+                </div>
+              </div>
+              <div className="p-6 bg-muted rounded-lg space-y-3">
+                <div className="grid grid-cols-2 gap-2">
+                  <span className="text-muted-foreground">Account Name:</span>
+                  <span className="font-medium text-foreground">ODIA SEVA FOUNDATION</span>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <span className="text-muted-foreground">Account Number:</span>
+                  <span className="font-medium text-foreground">50200080530142</span>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <span className="text-muted-foreground">IFSC Code:</span>
+                  <span className="font-medium text-foreground">HDFC0005404</span>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <span className="text-muted-foreground">Bank Name:</span>
+                  <span className="font-medium text-foreground">HDFC BANK LTD.</span>
                 </div>
               </div>
 
               <div className="p-6 bg-muted rounded-lg">
                 <h3 className="font-semibold text-foreground mb-3">UPI Payment</h3>
-                <p className="text-muted-foreground text-sm mb-2">Scan QR code or use UPI ID:</p>
-                <p className="font-medium text-foreground">odiaseva@upi</p>
+                <p className="text-muted-foreground text-sm mb-2">Scan QR code</p>
+                <img className="qrcode" src={qrcode} />
+                {/* <p className="font-medium text-foreground">odiaseva@upi</p> */}
               </div>
 
               <div className="text-center pt-4">
@@ -114,7 +134,7 @@ const Donate = () => {
                   please contact us.
                 </p>
                 <Button variant="outline" asChild>
-                  <a href="mailto:contact@odiaseva.org">Contact Us</a>
+                  <a href="mailto:odiasevafoundation@gmail.com">Contact Us</a>
                 </Button>
               </div>
 

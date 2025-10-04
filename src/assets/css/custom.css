@@ -5,3 +5,6 @@ body{
 .bg-background {
     background-color: #f9f5f1;
 }
+.banner-image{
+    opacity: 0.4;
+}

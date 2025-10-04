@@ -4,6 +4,51 @@ import { Heart, HandHeart, MapPin } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import logo from "../assets/images/logo.png";
+import banner from "../assets/images/group.jpg";
+import activity1 from "../assets/images/activity1.jpg";
+import activity2 from "../assets/images/activity2.jpg";
+import activity3 from "../assets/images/activity3.jpg";
+import activity4 from "../assets/images/activity4.jpg";
+import activity5 from "../assets/images/activity5.jpg";
+import activity6 from "../assets/images/activity6.jpg";
+const activities = [
+    {
+      title: "Foundation Aniversary Puja",
+      date: "Oct 2, 2025",
+      description: "Foundation Aniversary Puja",
+      image: activity1
+    },
+    {
+      title: "Community Visit",
+      date: "March 12, 2025",
+      description: "Community Visit and Feed grass to cows",
+      image: activity2
+    },
+    {
+      title: "Monthly meeting",
+      date: "March 10, 2025",
+      description: "Monthly meeting and discussion about new shed",
+      image: activity3
+    },
+    {
+      title: "Independence Day",
+      date: "Aug 15, 2025",
+      description: "Independence day celebration",
+      image: activity4
+    },
+    {
+      title: "Nandi Maharaja",
+      date: "Jul 13, 2025",
+      description: "Last ritual of Nandi Maharaja",
+      image: activity5
+    },
+    {
+      title: "Shelter Expansion",
+      date: "Jul 5, 2025",
+      description: "Cow shed expansion to adopt new cows",
+      image: activity6
+    }
+  ];
 
 const Home = () => {
   return (
@@ -14,16 +59,16 @@ const Home = () => {
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-r from-primary/20 to-secondary/20">
         <div className="absolute inset-0">
           <img
-            src={logo}
+            src={banner}
             alt="Odia Seva Foundation"
-            className="w-full h-full object-contain opacity-10"
+            className="w-full h-full object-contain"
           />
         </div>
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight text-foreground">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight text-white">
             Odia Seva Foundation
           </h1>
-          <p className="text-lg md:text-2xl mb-8 max-w-2xl mx-auto font-light text-muted-foreground">
+          <p className="text-lg md:text-2xl mb-8 max-w-2xl mx-auto font-light text-white">
             Serving and protecting our sacred cows with love and care
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -130,20 +175,21 @@ const Home = () => {
           </div>
           <div className="relative overflow-hidden">
             <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
-              {[1, 2, 3, 1, 2, 3].map((num, index) => (
+              {activities.map((activity, index) => (
                 <div key={index} className="flex-none w-80 snap-center">
+
                   <div className="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
                     <img
-                      src={`/api/placeholder/320/240`}
+                      src={activity.image}
                       alt={`Activity ${index + 1}`}
                       className="w-full h-64 object-cover"
                     />
                     <div className="p-4 bg-card">
                       <h3 className="font-semibold text-foreground mb-2">
-                        Daily Care Activity
+                        {activity.title}
                       </h3>
                       <p className="text-sm text-muted-foreground">
-                        Our team caring for the cows with love
+                        {activity.description}
                       </p>
                     </div>
                   </div>

@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import gallery1 from "../assets/images/gallery-1.jpg";
-import gallery2 from "../assets/images/gallery-2.jpg";
+import gallery2 from "../assets/images/gallery-2.jpeg";
 import gallery3 from "../assets/images/gallery-3.jpg";
 import gauriImage from "../assets/images/cow-gauri.jpg";
 import lakshmiImage from "../assets/images/cow-lakshmi.jpg";
@@ -16,8 +16,8 @@ const Gallery = () => {
     },
     {
       src: gallery2,
-      alt: "Cows grazing in the meadow",
-      title: "Peaceful Grazing",
+      alt: "Cows with new born calf",
+      title: "Newborn calf take care",
     },
     {
       src: gallery3,

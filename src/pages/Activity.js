@@ -1,39 +1,51 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Card, CardContent } from "../components/ui/card";
+import activity1 from "../assets/images/activity1.jpg";
+import activity2 from "../assets/images/activity2.jpg";
+import activity3 from "../assets/images/activity3.jpg";
+import activity4 from "../assets/images/activity4.jpg";
+import activity5 from "../assets/images/activity5.jpg";
+import activity6 from "../assets/images/activity6.jpg";
 
 const Activity = () => {
   const activities = [
     {
-      title: "Daily Feeding Session",
-      date: "March 15, 2024",
-      description: "Morning feeding session with fresh fodder for all 20 cows",
-      image: "/api/placeholder/400/300"
-    },
-    {
-      title: "Veterinary Check-up",
-      date: "March 12, 2024",
-      description: "Monthly health check-up completed for all cows",
-      image: "/api/placeholder/400/300"
-    },
-    {
-      title: "Shelter Maintenance",
-      date: "March 10, 2024",
-      description: "Completed repairs and cleaning of shelter facilities",
-      image: "/api/placeholder/400/300"
-    },
-    {
-      title: "New Cow Rescue",
-      date: "March 5, 2024",
-      description: "Rescued and welcomed a new cow to our shelter",
-      image: "/api/placeholder/400/300"
+      title: "Foundation Aniversary Puja",
+      date: "Oct 2, 2025",
+      description: "Foundation Aniversary Puja",
+      image: activity1
     },
     {
       title: "Community Visit",
-      date: "March 1, 2024",
-      description: "Local school children visited to learn about cow care",
-      image: "/api/placeholder/400/300"
+      date: "March 12, 2025",
+      description: "Community Visit and Feed grass to cows",
+      image: activity2
     },
+    {
+      title: "Monthly meeting",
+      date: "March 10, 2025",
+      description: "Monthly meeting and discussion about new shed",
+      image: activity3
+    },
+    {
+      title: "Independence Day",
+      date: "Aug 15, 2025",
+      description: "Independence day celebration",
+      image: activity4
+    },
+    {
+      title: "Nandi Maharaja",
+      date: "Jul 13, 2025",
+      description: "Last ritual of Nandi Maharaja",
+      image: activity5
+    },
+    {
+      title: "Shelter Expansion",
+      date: "Jul 5, 2025",
+      description: "Cow shed expansion to adopt new cows",
+      image: activity6
+    }
   ];
 
   return (
