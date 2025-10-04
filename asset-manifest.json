@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/odiasevafoundation/static/css/main.a1a88893.css",
-    "main.js": "/odiasevafoundation/static/js/main.3980c3c3.js",
-    "static/js/453.3604ae2e.chunk.js": "/odiasevafoundation/static/js/453.3604ae2e.chunk.js",
-    "static/media/gallery-1.jpg": "/odiasevafoundation/static/media/gallery-1.8fcf7084fd1d5f40fe72.jpg",
-    "static/media/gallery-2.jpg": "/odiasevafoundation/static/media/gallery-2.62c4f52b915a75398f4d.jpg",
+    "main.css": "/odiasevafoundation/static/css/main.7c54a3af.css",
+    "main.js": "/odiasevafoundation/static/js/main.b64e600b.js",
+    "static/js/453.63ea166a.chunk.js": "/odiasevafoundation/static/js/453.63ea166a.chunk.js",
+    "static/media/activity2.jpg": "/odiasevafoundation/static/media/activity2.16b8e0a232917dddb3ba.jpg",
+    "static/media/activity6.jpg": "/odiasevafoundation/static/media/activity6.edcfe9a536ef17e84525.jpg",
+    "static/media/activity4.jpg": "/odiasevafoundation/static/media/activity4.53382b831edcdf110351.jpg",
+    "static/media/activity5.jpg": "/odiasevafoundation/static/media/activity5.fd1238b26de85f485f3c.jpg",
+    "static/media/activity1.jpg": "/odiasevafoundation/static/media/activity1.1e412f0789388dc50f37.jpg",
+    "static/media/gallery-2.jpeg": "/odiasevafoundation/static/media/gallery-2.c23132d339bbbc23a089.jpeg",
+    "static/media/gallery-1.jpg": "/odiasevafoundation/static/media/gallery-1.bb191a1f25fb20874693.jpg",
+    "static/media/activity3.jpg": "/odiasevafoundation/static/media/activity3.ebaac069a0bca8d651fa.jpg",
+    "static/media/group.jpg": "/odiasevafoundation/static/media/group.6ac179e7dd6f1860b0c1.jpg",
     "static/media/cow-radha.jpg": "/odiasevafoundation/static/media/cow-radha.338f78e07fa0a3eaf476.jpg",
     "static/media/gallery-3.jpg": "/odiasevafoundation/static/media/gallery-3.eaa7bd7cb0a40357e5bd.jpg",
     "static/media/cow-shyam.jpg": "/odiasevafoundation/static/media/cow-shyam.eb1663e151e070811183.jpg",
-    "static/media/cow-gauri.jpg": "/odiasevafoundation/static/media/cow-gauri.317bf0327720730c6517.jpg",
+    "static/media/qrcode.jpg": "/odiasevafoundation/static/media/qrcode.8cbf165f2659e99efb58.jpg",
     "static/media/logo.png": "/odiasevafoundation/static/media/logo.b76f381133c458a478b2.png",
     "static/media/cow-krishna.jpg": "/odiasevafoundation/static/media/cow-krishna.8d3cb92279a7ae579505.jpg",
     "static/media/cow-nandi.jpg": "/odiasevafoundation/static/media/cow-nandi.73b291e627f429ac8dbc.jpg",
     "static/media/cow-lakshmi.jpg": "/odiasevafoundation/static/media/cow-lakshmi.17ea9678d5c59af9eaf1.jpg",
+    "static/media/cow-gauri.jpg": "/odiasevafoundation/static/media/cow-gauri.70f1f90a9cf3462a1ce5.jpg",
     "index.html": "/odiasevafoundation/index.html",
-    "main.a1a88893.css.map": "/odiasevafoundation/static/css/main.a1a88893.css.map",
-    "main.3980c3c3.js.map": "/odiasevafoundation/static/js/main.3980c3c3.js.map",
-    "453.3604ae2e.chunk.js.map": "/odiasevafoundation/static/js/453.3604ae2e.chunk.js.map"
+    "main.7c54a3af.css.map": "/odiasevafoundation/static/css/main.7c54a3af.css.map",
+    "main.b64e600b.js.map": "/odiasevafoundation/static/js/main.b64e600b.js.map",
+    "453.63ea166a.chunk.js.map": "/odiasevafoundation/static/js/453.63ea166a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a88893.css",
-    "static/js/main.3980c3c3.js"
+    "static/css/main.7c54a3af.css",
+    "static/js/main.b64e600b.js"
   ]
 }
