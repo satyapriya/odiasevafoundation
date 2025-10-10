@@ -2,16 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Redirecting...</title>
     <script>
-      // GitHub Pages redirect script
       (function() {
         var l = window.location;
         var repo = "/odiasevafoundation"; // your repo name
+        
+        // If redirect param exists -> restore clean path
         if (l.search.startsWith("?redirect=")) {
-          var redirectPath = l.search.replace("?redirect=", "");
+          var redirectPath = decodeURIComponent(l.search.replace("?redirect=", ""));
           window.history.replaceState(null, null, redirectPath);
-        } else if (!l.pathname.endsWith("index.html")) {
-          var redirectUrl = repo + "/index.html?redirect=" + l.pathname;
+        } 
+        // If we're on a deep path -> redirect to index with param
+        else if (!l.pathname.endsWith("index.html")) {
+          var redirectUrl = repo + "/index.html?redirect=" + encodeURIComponent(l.pathname);
           window.location.replace(redirectUrl);
         }
       })();
