@@ -2,26 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Redirecting…</title>
     <script>
       (function() {
         var l = window.location;
-        var repo = "/odiasevafoundation";  // your repo subpath
-
+        var repo = "/odiasevafoundation"; // your repo name
         if (l.search.startsWith("?redirect=")) {
-          // decode redirect param
           var redirectPath = decodeURIComponent(l.search.replace("?redirect=", ""));
-          // ensure it starts with repo
-          if (redirectPath.startsWith(repo)) {
-            // Remove the repo prefix if present
-            var cleanPath = redirectPath.substring(repo.length);
-            window.history.replaceState(null, null, cleanPath || "/");
-          } else {
-            window.history.replaceState(null, null, redirectPath);
-          }
-        }
-        else if (!l.pathname.endsWith("index.html")) {
-          // On deep route, redirect to index with encoded redirect param
+          window.history.replaceState(null, null, redirectPath);
+        } else if (!l.pathname.endsWith("index.html")) {
           var redirectUrl = repo + "/index.html?redirect=" + encodeURIComponent(l.pathname);
           window.location.replace(redirectUrl);
         }
