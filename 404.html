@@ -2,6 +2,13 @@
 <html>
   <head>
     <meta http-equiv="refresh" content="0; url=./index.html" />
+    <script>
+      // Handle client-side routes for GitHub Pages
+      var path = window.location.pathname;
+      var repo = "/odiasevafoundation"; // <-- your repo name
+      var redirect = repo + "/index.html?redirect=" + path;
+      window.location.replace(redirect);
+    </script>
   </head>
   <body></body>
 </html>
